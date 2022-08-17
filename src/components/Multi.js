@@ -1,10 +1,12 @@
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
 
+import Estilo from './style';
+
 function Comp() {
   return (
     <SafeAreaView>
-      <Text>Comp #Oficial</Text>
+      <Text style={Estilo.fontG}>Comp #Oficial</Text>
     </SafeAreaView>
   );
 }
@@ -12,7 +14,7 @@ function Comp() {
 function Comp1() {
   return (
     <SafeAreaView>
-      <Text>Comp #02</Text>
+      <Text style={Estilo.fontG}>Comp #02</Text>
     </SafeAreaView>
   );
 }
@@ -20,7 +22,7 @@ function Comp1() {
 function Comp2() {
   return (
     <SafeAreaView>
-      <Text>Comp #03</Text>
+      <Text style={Estilo.fontG}>Comp #03</Text>
     </SafeAreaView>
   );
 }
