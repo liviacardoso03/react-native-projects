@@ -1,7 +1,11 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 
-import Button from './components/Button';
+import Contador from './components/Contador';
+// import Pai from './components/ComuniIndireta/Pai';
+// import Pai from './components/Comunicação Direta/Pai';
+// import Contador from './components/Contador';
+// import Button from './components/Button';
 // import Titulo from './components/Titulo';
 // import Aleatorio from './components/Aleatorio';
 //import MinMax from './components/MinMax';
@@ -10,8 +14,13 @@ import Button from './components/Button';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Button />
+    <Contador />
     {/*
+    <Pai />
+    <Pai />
+    <Contador inicial={100} passo={13} />
+    <Contador />
+    <Button />
     <Titulo
       principal="Cadastro Produto"
       secundario="Tela de Cadastro do Produto"
