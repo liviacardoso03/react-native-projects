@@ -7,11 +7,9 @@ export default props => {
   let x = 13;
   let y = 100;
   return (
-    <Button onPress={console.warn('Chegou aqui')} />
-
-    // <>
-    //   <Filho a={x} b={y} />
-    //   <Filho a={x + 100} b={y + 200} />
-    // </>
+    <>
+      <Filho a={x} b={y} />
+      <Filho a={x + 100} b={y + 200} />
+    </>
   );
 };

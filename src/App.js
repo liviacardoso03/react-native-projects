@@ -2,8 +2,8 @@ import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 
 import Contador from './components/Contador';
-// import Pai from './components/ComuniIndireta/Pai';
-// import Pai from './components/Comunicação Direta/Pai';
+import Pai from './components/indireta/Pai';
+// import Pai from './components/direta/Pai';
 // import Contador from './components/Contador';
 // import Button from './components/Button';
 // import Titulo from './components/Titulo';
@@ -14,11 +14,10 @@ import Contador from './components/Contador';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Contador />
+    <Pai />
+    {/* <Contador /> */}
     {/*
     <Pai />
-    <Pai />
-    <Contador inicial={100} passo={13} />
     <Contador />
     <Button />
     <Titulo
