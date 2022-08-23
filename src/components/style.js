@@ -6,4 +6,10 @@ export default StyleSheet.create({
     padding: 20,
     textAlign: 'center',
   },
+
+  fontM: {
+    fontSize: 25,
+    padding: 20,
+    textAlign: 'center',
+  },
 });
