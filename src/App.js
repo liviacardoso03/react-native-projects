@@ -17,7 +17,7 @@ import ParImpar from './components/ParImpar';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <ParImpar num={3} />
+    <ParImpar num={34} />
     {/* <Diferenciar /> */}
     {/* <ContadorV2 /> */}
     {/* <Pai /> */}
