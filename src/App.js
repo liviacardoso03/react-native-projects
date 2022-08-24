@@ -24,9 +24,11 @@ import Quadrado from './components/layout/Quadrado';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Quadrado />
-    <Quadrado cor="#F00" />
-    <Quadrado cor="#0F0" />
+    <Quadrado cor="#ff801a" />
+    <Quadrado cor="#50d1f6" />
+    <Quadrado cor="#dd22c1" />
+    <Quadrado cor="#8312ed" />
+    <Quadrado cor="#36c9a7" />
     {/* <DigiteSeuNome /> */}
     {/* <ListaProdutosV2 /> */}
     {/* <ListaProdutos /> */}
