@@ -44,7 +44,7 @@ export default class Mega extends Component {
   exibirNumeros = () => {
     const nums = this.state.numeros;
     return nums.map(num => {
-      return <MegaNumeros num={num} />;
+      return <MegaNumeros key={num} num={num} />;
     });
   };
 
